@@ -1,7 +1,7 @@
 # Data Science Project: Wind Turbine Fault Classification
 
 ## Introduction
-In August of the current year, I worked on my first real world data science project after completing my master's lessons and in Big Data and AI for society at the University of Pisa. This project not only tested the skills I gained during my studies but also allowed me to help a friend solve a critical challenge in their postgraduate thesis.
+In August of the current year, I worked on my first real world data science project after completing my master's lessons and in Big Data and AI for society at the University of Pisa. This project not only tested the skills I gained during my studies but also allowed me to help a friend solving a critical challenge in his postgraduate thesis.
 
 The goal was to classify faults in wind turbines based on sensor data stored in a 4GB `.mat` file. This task presented several challenges, including understanding the dataset, performing feature engineering, and selecting appropriate machine learning techniques. 
 
@@ -26,7 +26,9 @@ My role was to:
 ## Data Understanding and Preprocessing
 
 ### 1. Class Distribution and Imbalance
-The dataset consisted of five selected classes, representing a total of **1,500 curves** (300 curves per class). The data was stratified and split into:
+The final dataset consisted of five selected classes, representing a total of **1,500 curves** (300 curves per class). 
+
+The data was stratified and split into:
 - **49% Training**
 - **30% Testing**
 - **21% Validation**
@@ -37,7 +39,7 @@ Given the inherent class imbalance, strategies like **undersampling** and **stra
 The data presented a logarithmic distribution, which required specific transformations to stabilize variance and reduce skewness. For this, I applied the PowerTransformer using the Yeo-Johnson method: This transformation ensured that the model could better interpret the variations across features without losing critical information contained in the curves.
 
 ### 3.Feature Engineering and Dimensionality Reduction
-Feature engineering and selection were fundamental to improving model performance.
+Feature engineering and selection were fundamental to improve model performance.
 1. Welch Method: Used to extract features that reflected variations in signal power due to simulated faults.
 2. Correlation Filtering: Removed 89 columns with correlations greater than 0.8 or less than -0.8 to avoid redundancy and multicollinearity.
 After these steps and with the approval of the engineer in charge of the project, I retained a final set of 10 features, which captured the most meaningful variations in the signal.
@@ -75,5 +77,6 @@ The RBF kernel performed the best, balancing accuracy and stability across the f
 ## Final Thoughts
 This experience marked a turning point in my journey as a data scientist. Not only did I gain technical skills, but I also learned how to navigate ambiguity and solve problems creatively. Most importantly, I contributed to a project that had real-world significance.
 
-If you want to read the 
+If you want to read the thesis with all the information please feel free read his publication:
+
 
