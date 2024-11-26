@@ -6,7 +6,7 @@ In August of this year, I worked on my first real-world data science project aft
 
 A digital twin is a virtual representation of a physical system, designed to simulate and predict its behavior under various operating conditions. In this case, the digital twin aimed to model and classify potential faults in a wind turbine, enabling better maintenance strategies and improving system reliability.
 
-The project's goal was to analyze simulated turbine sensor data stored in a 4GB .mat file, identify key features associated with different fault types, and build a classification model to accurately predict these faults. This process involved challenges such as understanding the dataset, performing feature engineering, and selecting machine learning techniques that could align with the high accuracy demands of a digital twin.
+The project's goal was to analyze simulated turbine data stored in a 4GB .mat file, identify key features associated with different fault types, and build a classification model to accurately predict these faults. This process involved challenges such as understanding the dataset, performing feature engineering, and selecting machine learning techniques that could align with the high accuracy demands of a digital twin.
 
 By the end of this project, we aimed to:
 
