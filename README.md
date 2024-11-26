@@ -1,7 +1,7 @@
 # Data Science Project: Wind Turbine Fault Classification
 
 ## Introduction
-In August of the current year, I worked on my first real world data science project after completing my master's lessons and in Big Data and AI for society at the University of Pisa. This project not only tested the skills I gained during my studies but also allowed me to help a friend solving a critical challenge in his postgraduate thesis.
+In August of the current year, I worked on my first real world data science project after completing my master's lessons in Big Data and AI for society at the University of Pisa. This project not only tested the skills I gained during my studies but also allowed me to help a friend solving a critical challenge in his postgraduate thesis.
 
 The goal was to classify faults in wind turbines based on sensor data stored in a 4GB `.mat` file. This task presented several challenges, including understanding the dataset, performing feature engineering, and selecting appropriate machine learning techniques. 
 
@@ -17,6 +17,8 @@ The project focuses on classifying faults in wind turbines. My friend provided m
    - Some simulated cases might not contain clear distinguishing features, making it uncertain whether meaningful patterns could be extracted.
 
 This setup presented an interesting challenge: working with frequency-domain data and ensuring the model could distinguish between subtle variations in the power spectral density to accurately classify each fault type.
+
+![classifications](https://github.com/user-attachments/assets/25558e5e-1152-4cc1-90f3-0d826411643e)
 
 My role was to:
 1. Understand and preprocess the large dataset.
