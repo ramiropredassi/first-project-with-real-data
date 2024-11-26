@@ -1,9 +1,17 @@
 # Data Science Project: Wind Turbine Fault Classification
 
 ## Introduction
-In August of the current year, I worked on my first real world data science project after completing my master's lessons in Big Data and AI for society at the University of Pisa. This project not only tested the skills I gained during my studies but also allowed me to help a friend solving a critical challenge in his postgraduate thesis.
 
-The goal was to classify faults in wind turbines based on sensor data stored in a 4GB `.mat` file. This task presented several challenges, including understanding the dataset, performing feature engineering, and selecting appropriate machine learning techniques. 
+In August of this year, I worked on my first real-world data science project after completing my master's in Big Data and AI for Society at the University of Pisa. This project not only tested the skills I gained during my studies but also allowed me to support a friend with their postgraduate thesis focused on developing a digital twin for the power and control system of a wind turbine.
+
+A digital twin is a virtual representation of a physical system, designed to simulate and predict its behavior under various operating conditions. In this case, the digital twin aimed to model and classify potential faults in a wind turbine, enabling better maintenance strategies and improving system reliability.
+
+The project's goal was to analyze simulated turbine sensor data stored in a 4GB .mat file, identify key features associated with different fault types, and build a classification model to accurately predict these faults. This process involved challenges such as understanding the dataset, performing feature engineering, and selecting machine learning techniques that could align with the high accuracy demands of a digital twin.
+
+By the end of this project, we aimed to:
+
+1. Enhance the fault-detection capabilities of the digital twin.
+2. Validate the effectiveness of the chosen techniques in replicating and predicting turbine behavior.
 
 ## Problem Context
 The project focuses on classifying faults in wind turbines. My friend provided me with a dataset he simulated for his postgraduate thesis. The data aimed to replicate real-world turbine faults and included the following characteristics:
