@@ -37,10 +37,10 @@ The data was stratified and split into:
 
 Given the inherent class imbalance, strategies like **undersampling** and **stratified k-fold cross-validation** were considered to ensure fair model evaluation.
 
-### 2.  Data Transformation
+### 2. Data Transformation
 The data presented a logarithmic distribution, which required specific transformations to stabilize variance and reduce skewness. For this, I applied the PowerTransformer using the Yeo-Johnson method: This transformation ensured that the model could better interpret the variations across features without losing critical information contained in the curves.
 
-### 3.Feature Engineering and Dimensionality Reduction
+### 3. Feature Engineering and Dimensionality Reduction
 Feature engineering and selection were fundamental to improve model performance.
 1. Welch Method: Used to extract features that reflected variations in signal power due to simulated faults.
 2. Correlation Filtering: Removed 89 columns with correlations greater than 0.8 or less than -0.8 to avoid redundancy and multicollinearity.
