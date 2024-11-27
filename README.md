@@ -89,4 +89,4 @@ This experience marked a turning point in my journey as a data scientist. Not on
 
 If you want to read the thesis with all the information please feel free read his publication:
 
-
+http://hdl.handle.net/10017/63573
