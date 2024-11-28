@@ -87,6 +87,6 @@ The RBF kernel performed the best, balancing accuracy and stability across the f
 ## Final Thoughts
 This experience marked a turning point in my journey as a data scientist. Not only did I gain technical skills, but I also learned how to navigate ambiguity and solve problems creatively. Most importantly, I contributed to a project that had real-world significance.
 
-If you want to read the thesis with all the information please feel free read his publication:
+If you want to read the thesis with all the information please feel free to read my friends publication:
 
 http://hdl.handle.net/10017/63573
